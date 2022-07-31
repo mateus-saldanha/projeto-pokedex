@@ -1,0 +1,14 @@
+@media (max-width: 620px){
+    .btn__seta {
+        width: 28px;
+        height: 28px;
+    }
+    .button{
+        font-size: 0.8rem;
+        height: 90%;
+        padding: 2%;
+    }
+    .pokemon__info{
+        font-size: 11px;
+    }
+}

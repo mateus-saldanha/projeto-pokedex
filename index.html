@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link rel="icon" href="./favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Main JS -->
+  <script defer src="./js/script.js"></script>
+
+  <title>Pokédex</title>
+</head>
+<body>
+  
+  <main>
+    <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+    
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Name or Number" 
+        required
+      />
+    </form>
+
+    <ul class="atributes">
+      <li class="pokemon__info atr select">
+        Tipo: <span class="pokemon__type"></span><br>
+        Altura: <span class="pokemon__height"></span> Metros<br>
+        Peso: <span class="pokemon__weight"></span> Kg<br>
+        Habilidade: <span class="pokemon__ability"></span><br>
+        Habilidade Secreta: <span class="pokemon__s-ability"></span>
+        <button class="btn__seta btn__avancar" id="btn__avancar">
+          <img src="images/seta-32.png" alt="seta avançar" class="seta">
+        </button>
+      </li>
+      <li class="pokemon__info stats" >
+        HP: <span class="pokemon__hp"></span><br>
+        Ataque: <span class="pokemon__atk"></span><br>
+        Defesa: <span class="pokemon__def"></span><br>
+        Ataque Especial: <span class="pokemon__s-atk"></span><br>
+        Defesa Especial: <span class="pokemon__s-def"></span><br>
+        Velocidade: <span class="pokemon__speed"></span><br>
+        <button class="btn__seta btn__voltar" id="btn__voltar">
+          <img src="images/seta-32.png" alt="seta voltar" class="seta">
+        </button>
+      </li>
+
+    </ul>    
+
+    <div class="buttons">
+      <button class="button btn-prev">Prev &lt;</button>
+      <button class="button btn-next">Next &gt;</button>
+    </div>
+
+    <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+  </main>
+
+</body>
+</html>
